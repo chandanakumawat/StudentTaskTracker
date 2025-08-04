@@ -1,0 +1,43 @@
+ body {
+    background-image: url('https://images.unsplash.com/photo-1749802449762-5e428ccf9a45?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    }
+
+    .card {
+    background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .card-header {
+    background-color: rgb(179, 131, 131);
+    }
+
+    .sign_up_btn {
+    width: 100px;
+    background-color: rgb(129, 93, 93);
+    }
+
+    .sign_up_btn:hover {
+    background-color: rgb(130, 40, 50);
+    box-shadow: 0 0 0 rgb(155, 132, 132);
+    }
+
+    .dtlBtn {
+    width: 90%;
+    padding: 10px 70px 10px 100px;
+    }
+
+
+
+ .custom-select-width {
+        width: auto;
+        min-width: 200px;
+    }
+
+    /* Optional: center vertically inside floating div */
+    .form-floating > .custom-select-width {
+        padding-top: 1.625rem;
+        padding-bottom: .625rem;
+    }
